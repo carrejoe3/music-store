@@ -43,7 +43,7 @@ function leto_footer_credits() {
 			<span class="sep"> | </span>
 			<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %2$s by %1$s.', 'leto' ), 'aThemes', '<a href="https://athemes.com/theme/leto/">Leto</a>' );
+				printf( esc_html__( 'Theme: %2$s by %1$s.', 'leto' ), 'aThemes', '<a href="https://athemes.com/theme/leto/" rel="nofollow">Leto</a>' );
 			?>
 		</div><!-- .site-info -->
 	<?php	
